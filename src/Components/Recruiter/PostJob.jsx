@@ -41,7 +41,7 @@ const { register, handleSubmit,reset, formState: { errors } } = useForm({
         applyDate:data.applyDate,
         category:data.category
       }
-   const response=await axios.post("http://localhost:9000/api/recruiter-jobpost",payload,{
+   const response=await axios.post("https://recrutx-b.vercel.app/api/recruiter-jobpost",payload,{
       headers: {
         "Content-Type":"application/json"
       }

@@ -26,7 +26,7 @@ const schema = yup
          formData.append("password",data.password)
          formData.append("location",data.location)
          formData.append("logo",data.logo[0])
-         await   axios.post("http://localhost:9000/api/recruiter-register",formData,{
+         await   axios.post("https://recrutx-b.vercel.app/api/recruiter-register",formData,{
             headers:{
                 "Content-Type":"multipart/form-data"
             }

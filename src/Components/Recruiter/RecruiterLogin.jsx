@@ -21,7 +21,7 @@ const {register,handleSubmit, formState:{errors}}=useForm({
          email:data.email,
          password:data.password
         }
-      const response=await   axios.post("http://localhost:9000/api/Recruiter-login",payLoad,{
+      const response=await   axios.post("https://recrutx-b.vercel.app/api/Recruiter-login",payLoad,{
             headers:{
                 "Content-Type":"application/json"
             }

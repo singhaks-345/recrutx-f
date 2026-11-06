@@ -36,7 +36,7 @@ const schema = yup
     alert("Registation SuccessFull !.")*/
     try {
     const response = await axios.post(
-        "http://localhost:9000/api/seeker-register",
+        "https://recrutx-b.vercel.app/api/seeker-register",
         formData
     );
 

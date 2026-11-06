@@ -8,7 +8,7 @@ function AdminSeeker(){
     },[])
 
     const fetchData=async()=>{
-         const response=await axios.get("http://localhost:9000/api/admin-seekerlist",{
+         const response=await axios.get("https://recrutx-b.vercel.app/api/admin-seekerlist",{
             headers:{
                 "Content-Type":"application/json"
             }
